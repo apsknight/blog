@@ -22,7 +22,16 @@ baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "http://localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ultimateaps
 github_username:  apsknight
-
+google_analytics: UA-92178623-1
+disqus:
+  shortname: apsknight
+  defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: true
 # Build settings
 markdown: kramdown
 theme: minima
