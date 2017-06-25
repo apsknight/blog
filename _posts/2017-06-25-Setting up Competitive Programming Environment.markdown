@@ -7,7 +7,7 @@ comments: true
 ---
 ![](http://www.geeksforgeeks.org/wp-content/uploads/Competitive-Programming.jpg)
 
-This blog post emphasize some random *Gyan* which may be useful for competitive programmerss during coding contests.
+This blog post emphasize some random *Gyan* which may be useful for competitive programmers during coding contests.
 
 ## 1. Chosing an Operating System
 Almost every beginner use Windows but the OS preferred by veteran developers and programmers is certainly Linux as it provide a better coding experience and plethora of customization opportunities.
