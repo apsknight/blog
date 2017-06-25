@@ -7,29 +7,31 @@ comments: true
 ---
 ![](http://www.geeksforgeeks.org/wp-content/uploads/Competitive-Programming.jpg)
 
-This blog post emphasize some random *Gyan* which may be useful for competitive programming beginners during coding contests.
+This blog post emphasize some random *Gyan* which may be useful for competitive programmerss during coding contests.
 
 ## 1. Chosing an Operating System
-Almost every beginner use Windows but the OS preferred by veteran developers and programmers is certainly Linux as it provide a better experience and plethora of customization opportunities.
+Almost every beginner use Windows but the OS preferred by veteran developers and programmers is certainly Linux as it provide a better coding experience and plethora of customization opportunities.
 
-The following article describe why you should use Linux instead of Windows:   
+The following article describe why you should consider using Linux:   
 [7 Superb Reasons Why You Should Use Linux For Programming](http://www.makeuseof.com/tag/6-superb-reasons-use-linux-programming/)
 
 ### Chosing a Linux Distro
-The another great thing about Linux is that there are plenty of distros available. Few popular among those are:  
+The another great thing about Linux is that there are plenty of distros available. Few popular distros are:  
 * Ubuntu
 * Fedora
 * CentOS
 * Mint
 * openSUSE
 
-I personally work on Ubuntu as it is one of the most popular distro with awesome community support and its package manager library **apt** and **dpkg** have almost all requisite packages for a good coding setup. You can chose any distro as they are almost similar to each other.  
-Linux can be dual booted also alongeith Windows if you don't want to miss the awesome graphical aesthetics of Windows : [Dual booting windows with Ubuntu](http://www.everydaylinuxuser.com/2015/11/how-to-install-ubuntu-linux-alongside.html)
+I personally work on Ubuntu as it is one of the most popular distro with awesome community support and its package manager library **apt** and **dpkg** have almost all requisite packages for a good coding setup. You can chose any distro as they are almost similar to each other.
+
+
+If you don't want to miss the awesome graphical aesthetics of Windows, Linux can be dual booted alongwith Windows (I prefer this way): [Dual booting windows with Ubuntu](http://www.everydaylinuxuser.com/2015/11/how-to-install-ubuntu-linux-alongside.html)
 
 
 ### Simplify your life by **Bash**ing
-The most useful tool offered by UNIX like operating system is BASH. Yeah, the same prompting green shell that Hackers use in hollywood movies. The basic commands like `cd, ls, mkdir, rm, chmod` are quite useful while interacting with FHS.  
-It is advised to learn basic Linux commands before proceeding. You can enroll in this free introductory course offered by **The Linux Foundation** on [edX](https://www.edx.org/course/introduction-linux-linuxfoundationx-lfs101x-1).
+The most useful tool offered by UNIX like operating system is BASH. Yeah, the same prompting green shell that Hackers use in hollywood movies. The basic commands like `cd, ls, mkdir, rm, chmod` are quite handy while interacting with FHS.  
+It is advised to learn basic Linux shell commands before proceeding. You can enroll in this free introductory course offered by **The Linux Foundation** on [edX](https://www.edx.org/course/introduction-linux-linuxfoundationx-lfs101x-1).
 
 ### Useful Linux Packages
 * **Git**  
@@ -66,20 +68,41 @@ ___
 
 
 ## 2. Chosing a Programming Language
-The most important weapon for a competitive programmer is Programming language. You can do competitive programming in almost any language but the language preferred by most of the programmers is **C++** followed by **Java** and **Python**. I personally use C++ because of its awesome STL(Standard Template Library) and also it is a bit faster than Java. Java is heavily based on OOP so writing a simple Hello World! program require many lines. Also it is very easy for C programmers to step up on C++ as C is a subset of C++. Using C++ is advisable but a basic knowledge of Python can also be helpful when dealing with big integers. Following pie chart shows the most used programming language on [Hackerearth](http://www.hackerearth.com) online judge.
+The most important weapon for a competitive programmer is Programming language. You can do competitive programming in almost any language but the language preferred by most of the programmers is **C++** followed by **Java** and **Python**. ACM ICPC allows only 4 languages (C/C++, Java and Python) in world finals. I personally use C++ because of its awesome STL(Standard Template Library) and also it is a bit faster than Java. Java is heavily based on OOP so even writing a simple Hello World! program require many lines. Also it is very easy for C programmers to step up on C++ as C is a subset of C++. Using C++ is advisable alongwith basic knowledge of Python as Python can be helpful while dealing with big integers. Following pie chart shows the most used programming language on [Hackerearth](http://www.hackerearth.com) online judge.
 ![](http://i2.wp.com/blog.hackerearth.com/wp-content/uploads/2016/11/Game_deck-18-1-1.jpg)
 You can enroll in C++ course offered by **John Purcell** on [Udacity](https://www.udemy.com/free-learn-c-tutorial-beginners/) to learn basic C++ programming. However if you prefer learning from textual tutorials, <http://www.cplusplus.com/doc/tutorial/> can be useful for you.
+
+### Few useful C++ tricks:
+* **Speedify C++ I/O**  
+The standard C++ I/O functions (cin/cout) flush the buffer on every next I/O call which unncecessarily increase I/O time. For enhancing C++ I/O speed, you can either use C's standard I/O function (scanf/printf) instead of (cin/cout) or you can write the following lines in main function.
+```cpp
+ios_base::sync_with_stdio(0);
+cin.tie(0);
+cout.tie(0);
+```
+Similarly the C++ `endl` also flush the buffer. You can either use C's `'\n'` instead of `endl` or you can write the following macro in your C++ file.
+```cpp
+#define endl '\n'
+```
+
+* **Get rid of those includes!**  
+Simply use
+```cpp
+#include <bits/stdc++.h>
+```
+This library includes many of libraries we do need in contest like `algorithm`, `iostream`, `vector` and many more. Believe me you don't need to include anything else
+
 
 ___
 
 ## 3. Chosing a Text Editor
-Many programmers prefer an Integrated Developement Environment(IDE) like Code::Block, DevC++, Eclipse etc. but I think using an IDE for competitive programming is an overkill. Personally for me IDEs are best suited for big developement projects, however I feel more efficient on Text Editors like Sublime Text in coding contests. Also text editors provide plethora of shortcuts like `Ctrl + D`, `Ctrl + K + K` etc. to make your life fast and easy. I prefer Sublime Text over Atom as Atom is built with [Electron](https://electron.atom.io/) which is powered by Chrome engine thus making Atom slow while booting. You can install Sublime Text by executing following command in your shell:
+Many programmers prefer an Integrated Developement Environment(IDE) like Code::Block, DevC++, Eclipse etc. but I think using an IDE for competitive programming is an overkill. Personally for me IDEs are best suited for big developement projects, however I feel more efficient on Text Editors like Sublime Text in coding contests. Also text editors provide plethora of shortcuts like `Ctrl + D`, `Ctrl + KK`, multiple cursors etc. to make your life fast and easy. I prefer Sublime Text over Atom as Atom is built with [Electron](https://electron.atom.io/) which is powered by Chrome engine thus making Atom slow while booting. You can install Sublime Text by executing following command in your shell:
 ```bash
 sudo add-apt-repository ppa:webupd8team/sublime-text-3
 sudo apt-get update
 sudo apt-get install sublime-text-installer
 ```
-You can run sublime texr either clicking its icon in search menu or by executing following command in shell:
+You can run sublime text either clicking its icon in search menu or by executing following command in shell:
 ```bash 
 subl file_address.extension
 ```
@@ -89,7 +112,7 @@ Screenshot of my Sublime Text:
 ![My Sublime Text 3](https://image.ibb.co/n5SgQ5/Screenshot_from_2017_06_25_15_40_17.png)
 
 #### Using sublime without knowing its super useful shortcuts is futile.
-You must learn these most useful shortcuts to gear up your coding speed. [Click Here](https://gist.github.com/eteanga/1736542) for Sublime text shortcuts. Don't forget to bookmark them.
+You must learn useful sublime text's shortcuts to gear up your coding speed. [Click Here](https://gist.github.com/eteanga/1736542) for Sublime text shortcuts cheatsheet. Don't forget to bookmark them.
 
 ### Sublime Text Snippets feature:
 Quoting from Sublime Text documentation:
@@ -98,7 +121,7 @@ Quoting from Sublime Text documentation:
 
 For a C++ programmer writing macros, typedef, including libraries etc. everytime while creating a new file can be a WET practice. So to [DRY](http://softwareyoga.com/is-your-code-dry-or-wet/) up this you can use sublime snippet feature.
 
-> To create a new snippet, select **Tools > New Snippet…**. Sublime Text will present you with an skeleton for a new snippet.
+> To create a new snippet, select **Tools > Developer > New Snippet…**. Sublime Text will present you with skeleton for a new snippet.
 
 Now delete everything and copy-paste the following: 
 ```cson
@@ -107,22 +130,18 @@ Now delete everything and copy-paste the following:
 	<!-- Your Snippet Code here -->
 }
 ]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>code</tabTrigger>
-	<!-- <tabTrigger>hello</tabTrigger> -->
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<!-- <scope>source.python</scope> -->
 </snippet>
 ```
 Replace `<!-- Your Snippet Code here -->` comment with your desired snippet.
 Now save the file in default directory with a name like `cpp.sublime-snippet`.
 
 
-For example following is my default C++ snippet code: 
+For example following is my C++ snippet code: 
 ```cpp
 /**
-*	Aman Pratap Singh (@apsknight, </www.apsknight.cf>)
-*	Indian Institute of Technology Bhubaneswar 
+*	Name: Aman Pratap Singh (@apsknight, </www.apsknight.cf>)
+*	Institute: Indian Institute of Technology Bhubaneswar 
 */
 #include <bits/stdc++.h>
 using namespace std;
@@ -150,7 +169,7 @@ int main() {
 For triggering this you have to just type `code + TAB` in your C++ file.
 Notice the $0 sign in 2nd line of main function in my snippet. This $0 sign tells sublime to place the cursor here after triggering the snippet.
 
-Beside this, Sublime also plenty other useful features, to learn them you may consider downloading this [awesome book](http://nbviewer.jupyter.org/github/Kristinita/SashaBooks/blob/master/IT/Sublime%20Text/Sublime%20Text%20Power%20User.pdf) by **Wes Bos**.
+Beside this, Sublime also has plenty other useful features, to learn them you may consider downloading this [awesome book](http://nbviewer.jupyter.org/github/Kristinita/SashaBooks/blob/master/IT/Sublime%20Text/Sublime%20Text%20Power%20User.pdf) by **Wes Bos**.
 
 You can also visit this blog for setting up sublime for your coding environment: <http://blog.codingblocks.com/2017/setting-up-sublime-text-for-competitive-coding>
 
@@ -167,7 +186,7 @@ ___
 Some useful things that may save your life during your proramming journey.
 
 ### Code Hosting
-Suppose you stucked in an infinite loop or segmentation fault while solving a problem and you realized that your friend may help in this case. In this case sending your code to your friend on FB Messanger/Whatsapp/Hike or Emailing the code is not certainly a good idea. Here comes the sites such as pastebin, ideone which may help you by hosting the code on their servers and you can share just a tiny URL to your friend.
+Suppose you stucked in an infinite loop or segmentation fault while solving a problem and you realize that your friend may help in this case. In this case sending your code to your friend on FB Messanger/Whatsapp/Hike or Emailing the code is not certainly a good idea. Here comes the sites such as pastebin, ideone which may help you by hosting the code on their server and you can share just a tiny URL to your friend.
 
 There are quite a few such services available on Internet. Following are some of them:
 
@@ -180,7 +199,7 @@ There are quite a few such services available on Internet. Following are some of
 Personally I prefer the last one <http://paste.ubuntu.com/> because of its Gedit like Rich Synax Highlighting, nice UX and no Login/Authentication is required. Also the sharing link of Ubuntu Paste's is much shorter than other.
 
 ### Cloud9 - The next generation IDE
-Cloud9 combines a powerful online code editor with a full Ubuntu workspace in the cloud. Cloud9 supports more than 40 languages. This may be useful when you have to code and don't have your laptop around. This service provide you an IDE in your browser which you can access just by a working internet connection. It also provide many other features like workspace sharing, simultaneous coding, built-in terminal and much more. You can create one private workspace and unlimited public workspace with a free account. For knowing more about Cloud9, Visit <https://c9.io>.
+Cloud9 combines a powerful online code editor with a full Ubuntu workspace in the cloud. Cloud9 supports more than 40 languages. This may be useful when you have to code and you don't have your laptop around. This service provide you an IDE in your browser which require only good internet connection. It also provide many other features like workspace sharing, simultaneous coding, built-in terminal, **awesome debugger** and much more. You can create one private workspace and unlimited public workspace with a free account. For knowing more about Cloud9, Visit <https://c9.io>.
 
 ### GDB and Valgrind
 GDB is a debugger built by GNU which can help you in debugging your C++ files and Valgrind is a tool which can check if there is any memory leakage in your program. For nore details about them, you can refer to these videos: 
@@ -188,12 +207,35 @@ GDB is a debugger built by GNU which can help you in debugging your C++ files an
 [Valgrind](https://www.youtube.com/watch?v=fvTsFjDuag8)
 
 ### Markdown
-This may not be an important feature to learn but it may be useful in writing rich comments. Some online judges like **Codechef** support writing comments with markdown. Also it is an important tool while writing documentation of your code (which probably you'll never do in competitive programming). Markdown is an useful feature in web development. This blog post is also written in markdown.  
+Markdown is a markup language like HTML. Learning it may not be important but it may be useful in writing rich comments. Some online judges like **Codechef** support writing comments with markdown. Also it is an important tool while writing documentation of your code (which probably you'll never do in competitive programming). Markdown is quite useful in web development. This blog post is also written in markdown.  
 You can learn basic markdown [here](http://commonmark.org/help/tutorial/), You should also bookmark [markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) for your future reference.
+
+### Shell scripting
+Shell scripting can be useful for automating repetitive stuff. For eg. I created following script for my cloud9 IDE, which on executing ask for a problem code and create a new C++ file.
+
+```bash
+#!/bin/sh
+# Navigate to the folder in which the file has to be created. 
+echo Program Code?
+# Ask for Program code.
+read code
+# path is variable storing absolute file path.
+path=$(pwd)/$code.cpp
+# touch(create) file.
+touch $path
+# Write default snippet in 
+echo "#include <bits/stdc++.h>\nusing namespace std;\n\ntypedef long long ll;\n#define repeat(i,n) for(int i = 0; i < n; i++)\n\nint main() {\n\tios_base::sync_with_stdio(0);\n\tcin.tie(0);\n\n\treturn 0;\n}" >> $path
+c9 $path
+echo "Okay! Done :)"
+```
+You can also find this script in my [Github repository](https://github.com/apsknight/snippets/blob/master/initialize.sh).  
+Visit this awesome [tutorial](https://www.shellscript.sh/) for learning shell scripting.
 
 ___
 
-*End of Post*  
+...  
+
+
 Image Source: Geeksforgeeks, Hackerearth  
-*Don't forget to bookmark this blog. Follow me on [Github](https://www.github.com/apsknight).*
-You can comment below any doubt, criticism or compliment. 
+You can comment below any doubt / criticism or compliment. Also if you like this post please share it among your hacker friends.   
+*Don’t forget to bookmark my blog and keep visiting frequently. Bonne journee!*
