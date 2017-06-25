@@ -19,7 +19,7 @@ email: amanpratapsingh@outlook.in
 description: > # this means to ignore newlines until "baseurl:"
   I am Aman Pratap Singh, CSE sophomore at IIT Bhubaneswar.
 baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "http:apsknight.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://apsknight.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ultimateaps
 github_username:  apsknight
 google_analytics: UA-92178623-1
