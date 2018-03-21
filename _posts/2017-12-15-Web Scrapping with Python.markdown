@@ -45,6 +45,8 @@ Other Resources:
 * [Geeksforgeeks](http://www.geeksforgeeks.org/implementing-web-scraping-python-beautiful-soup/)
 * [Analytics Vidhya](https://www.analyticsvidhya.com/blog/2015/10/beginner-guide-web-scraping-beautiful-soup-python/)  
 
+**Update:** I recently came to know another very good resource(<https://likegeeks.com/python-web-scraping>) for Web Scrapping. I think you may also like it.
+
 **Warning:** Scrapping data from certain website may violate their Terms and Conditions or Privacy Policy. Please check such things before deploying any scrapper. Most of the websites also have a file named *robots.txt* on their server which lists all such webpages that shouldn't be crawled so check for such files before scrapping from any site. For e.g. robot.txt file of Google is present on this <a href="https://www.google.co.in/robots.txt" target="_blank">link</a>.
 
 ___
