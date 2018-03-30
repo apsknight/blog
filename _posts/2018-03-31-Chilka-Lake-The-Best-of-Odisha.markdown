@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Web Scrapping with Python"
+title:  "Chilika Lake : The Best of Odisha"
 date:   2018-03-31 04:00:00 +0530
 comments: true
 ---
