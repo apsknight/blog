@@ -2,8 +2,6 @@
 layout: post
 title:  "Setting up Competitive Programming Environment"
 date:   2017-06-25 13:00:00 +0530
-categories: sublime ubuntu coding cloud9 pastebin
-comments: true
 ---
 ![](http://www.geeksforgeeks.org/wp-content/uploads/Competitive-Programming.jpg)
 

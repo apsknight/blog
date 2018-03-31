@@ -2,9 +2,13 @@
 layout: post
 title:  "Hello World!"
 date:   2017-06-05 16:16:24 +0530
-comments: true
 ---
-Bonjour! So after 3 countiguous hours, I'm finally done with setting up this blog with *Jekyll*. At first glance it was perplexing but as I dived deep into documentation of [Jekyll](https://jekyllrb.com/docs/home/) everything sorted out. I have also plugged in [DISQUS](https://disqus.com/) in the blog so that visitor can engage and express on this blog.
+
+<div class="message">
+  Howdy! This is my first blog post.
+</div>
+
+Bonjour! So after 3 countiguous hours, I'm finally done with setting up this blog with *Jekyll*. At first glance it was perplexing but as I dived deep into documentation of [Jekyll](https://jekyllrb.com/docs/home/) everything sorted out.
 
 ### What is Jekyll ?
 Quoting from Jekyll Documentation:

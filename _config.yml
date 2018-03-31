@@ -1,42 +1,22 @@
-# Welcome to Jekyll!
+# Permalinks
 #
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Strolling with aps
-author: Aman Pratap Singh
-email: amanprtpsingh@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  © 2017 Copyright || Powered by Jekyll and Hosted on Github Pages.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://blog.amanpratapsing.in" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: ultimateaps
-github_username:  apsknight
-google_analytics: UA-92178623-1
-disqus:
-  shortname: apsknight
-  defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      comments: true
-# Build settings
-markdown: kramdown
-theme: minima
-gems:
-  - jekyll-feed
-exclude:
-  - Gemfile
-  - Gemfile.lock
+# Setup
+title:               Strolling with Aman
+tagline:             'A voyage to wonderland.'
+description:         '© 2017-2018 Copyright'
+url:                 http://blog.amanpratapsingh.in
+baseurl:             ''
+paginate:            5
+
+# About/contact
+author:
+  name:              Aman Pratap Sigh
+  url:               https://amanpratapsingh.in
+  email:             amanprtpsingh@gmail.com
+
+# Custom vars
+version:             1.0.0

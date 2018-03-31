@@ -2,7 +2,6 @@
 layout: post
 title:  "Web Scrapping with Python"
 date:   2017-12-15 13:00:00 +0530
-comments: true
 ---
 
 
