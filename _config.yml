@@ -8,15 +8,15 @@ relative_permalinks: true
 title:               Strolling with Aman
 tagline:             'A voyage to wonderland.'
 description:         '© 2017-2018 Copyright'
-url:                 http://blog.amanpratapsingh.in
+url:                 blog.amanpratapsingh.in
 baseurl:             ''
 paginate:            5
 
 # About/contact
 author:
-  name:              Aman Pratap Sigh
-  url:               https://amanpratapsingh.in
-  email:             amanprtpsingh@gmail.com
+name:              Aman Pratap Sigh
+url:               amanpratapsingh.in
+email:             amanprtpsingh@gmail.com
 
 # Custom vars
 version:             1.0.0
