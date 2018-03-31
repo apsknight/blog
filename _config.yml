@@ -8,15 +8,15 @@ permalink:           pretty
 title:               Strolling with Aman
 tagline:             'A voyage to infinity.'
 description:         'The personal blog of Aman Pratap Singh'
-url:                 https://blog.amanpratapsingh.in
+url:                 'https://blog.amanpratapsingh.in'
 baseurl:             ''
 paginate:            1
 
 # About/contact
 author:
-name:              Aman Pratap Sigh
-url:               https://amanpratapsingh.in
-email:             amanprtpsingh@gmail.com
+name:              'Aman Pratap Sigh'
+url:               'https://amanpratapsingh.in'
+email:             'amanprtpsingh@gmail.com'
 
 # # Custom vars
 # version:             1.0.0
