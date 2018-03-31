@@ -1,0 +1,22 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
+
+# Setup
+title:               Strolling with Aman
+tagline:             'A voyage to wonderland.'
+description:         '© 2017-2018 Copyright'
+url:                 http://blog.amanpratapsingh.in
+baseurl:             ''
+paginate:            5
+
+# About/contact
+author:
+  name:              Aman Pratap Sigh
+  url:               https://amanpratapsingh.in
+  email:             amanprtpsingh@gmail.com
+
+# Custom vars
+version:             1.0.0

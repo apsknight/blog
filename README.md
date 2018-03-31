@@ -1,3 +1,1 @@
-# Blog
-
-Personal blog powered by Jekyll. 
+# My Personal Blog
