@@ -10,7 +10,7 @@ tagline:             'A voyage to infinity.'
 description:         'The personal blog of Aman Pratap Singh'
 url:                 'https://blog.amanpratapsingh.in'
 baseurl:             ''
-paginate:            3
+paginate:            1
 
 # About/contact
 author:
