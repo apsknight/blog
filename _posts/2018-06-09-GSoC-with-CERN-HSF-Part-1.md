@@ -29,12 +29,12 @@ The first phase for selected students was community bonding period which started
 The first coding phase started on May 14th. In this phase, I started creating Jupyter Extension for writing job details inside notebook. For this, I registered a Ganga Cell Magic in IPython kernel and then this magic compiles written job and submits it to Ganga. After submitting the job, kernel extension sends a job info message to frontend using Jupyter's comm API. The frontend parses the received job info and displays a widget below Ganga Magic Cell. This widget contains all the job info like Appliation, backend, subjobs, splitters etc. After sending the job info, the kernel creates a new thread and send job status to frontend each second until the job finishes. The frontend widget consist buttons for killing job and resubmitting failed jobs.
 
 
-![](https://cdn-images-1.medium.com/max/800/1*-Iv2XOcShgcm7MoAWLP6Ew.gif)
 Submitting Jobs
-![](https://cdn-images-1.medium.com/max/800/1*0HeTEwrCFYbZIEgoqlADeg.gif)
+![](https://cdn-images-1.medium.com/max/800/1*-Iv2XOcShgcm7MoAWLP6Ew.gif)
 Killing Jobs
-![](https://cdn-images-1.medium.com/max/800/1*U8wTeLmB0PfxZ_LX1B5msw.gif)
+![](https://cdn-images-1.medium.com/max/800/1*0HeTEwrCFYbZIEgoqlADeg.gif)
 Resubmitting Jobs
+![](https://cdn-images-1.medium.com/max/800/1*U8wTeLmB0PfxZ_LX1B5msw.gif)
 
 ## The Road ahead
 In the subsequent weeks, I'll design a paradigm to integrate the notebook's namespace with Ganga job submission session and output of job. The next goals for my project are:
