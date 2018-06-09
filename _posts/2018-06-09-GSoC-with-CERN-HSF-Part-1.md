@@ -6,10 +6,10 @@ date:   2018-06-09 04:00:00 +0530
 
 ![](https://cdn-images-1.medium.com/max/800/1*tO8m8T4r33ITpdrRaGLfQA.jpeg)
 
-I have been selected in Google Summer of Code 2018 under CERN-HSF umbrella organisation. My project is co-mentored by HEP Software Foundation and Imperial College, London.
+I have been selected in [Google Summer of Code 2018](https://summerofcode.withgoogle.com/) under CERN-HSF umbrella organisation. [My project](https://summerofcode.withgoogle.com/projects/#6368971138269184) is co-mentored by HEP Software Foundation and Imperial College, London.
 
 
-This was the first time I applied for GSoC. It was my dream from the freshman year and I started preparing for it from a long time ago. I started writing code for fun, published it on Github, contributed to multiple open source projects. The first major milestone in my open source journey was in December last year when my first PR got merged in Jupyter Lab and I got an invitation to become part of JupyterLab organisation on Github. Later when GSoC announced selected organisation, I started searching for organisations. One of my college senior was GSoC 2017 student and he suggested me to apply for CERN-HSF. I applied for project Large-scale computing backend for Jupyter notebooks - HTCondor batch job submission and monitoring using the Ganga toolkit. On April 23, the results for GSoC 2018 came and my project proposal got accepted.
+This was the first time I applied for GSoC. It was my dream from the freshman year and I started preparing for it from a long time ago. I started writing code for fun, published it on Github, contributed to multiple open source projects. The first major milestone in my open source journey was in December last year when my first PR got merged in Jupyter Lab and I got an invitation to become part of JupyterLab organisation on Github. Later when GSoC announced selected organisation, I started searching for organisations. One of my college senior was GSoC 2017 student and he suggested me to apply for CERN-HSF. I applied for project [Large-scale computing backend for Jupyter notebooks - HTCondor batch job submission and monitoring using the Ganga toolkit](https://hepsoftwarefoundation.org/gsoc/2018/proposal_GangaJupyter.html). On April 23, the results for GSoC 2018 came and my project proposal got accepted.
 
 ![](https://cdn-images-1.medium.com/max/800/1*RNr-rgG0iUbqoqFRjmahbQ.png)
 
@@ -30,6 +30,8 @@ The first coding phase started on May 14th. In this phase, I started creating Ju
 
 
 ![](https://cdn-images-1.medium.com/max/800/1*-Iv2XOcShgcm7MoAWLP6Ew.gif)
+![](https://cdn-images-1.medium.com/max/800/1*0HeTEwrCFYbZIEgoqlADeg.gif)
+![](https://cdn-images-1.medium.com/max/800/1*U8wTeLmB0PfxZ_LX1B5msw.gif)
 
 ## The Road ahead
 In the subsequent weeks, I'll design a paradigm to integrate the notebook's namespace with Ganga job submission session and output of job. The next goals for my project are:
