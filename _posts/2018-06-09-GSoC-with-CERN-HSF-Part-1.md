@@ -3,18 +3,15 @@ layout: post
 title:  "GSoC with CERN-HSF (Part-1)"
 date:   2018-06-09 04:00:00 +0530
 ---
-<center>
+
 ![](https://cdn-images-1.medium.com/max/800/1*tO8m8T4r33ITpdrRaGLfQA.jpeg)
-</center>
 
 I have been selected in Google Summer of Code 2018 under CERN-HSF umbrella organisation. My project is co-mentored by HEP Software Foundation and Imperial College, London.
 
 
 This was the first time I applied for GSoC. It was my dream from the freshman year and I started preparing for it from a long time ago. I started writing code for fun, published it on Github, contributed to multiple open source projects. The first major milestone in my open source journey was in December last year when my first PR got merged in Jupyter Lab and I got an invitation to become part of JupyterLab organisation on Github. Later when GSoC announced selected organisation, I started searching for organisations. One of my college senior was GSoC 2017 student and he suggested me to apply for CERN-HSF. I applied for project Large-scale computing backend for Jupyter notebooks - HTCondor batch job submission and monitoring using the Ganga toolkit. On April 23, the results for GSoC 2018 came and my project proposal got accepted.
 
-<center>
 ![](https://cdn-images-1.medium.com/max/800/1*RNr-rgG0iUbqoqFRjmahbQ.png)
-</center>
 
 ## Project Synopsis
 Jupyter Notebook is an interactive computing environment that creates notebooks which contains computer code as well as rich text elements like equations, figures, plots, widgets and theory. These notebooks are easily understandable and can be executed to perform interactive data analysis, scientific computing and code prototyping.
@@ -31,9 +28,8 @@ The first phase for selected students was community bonding period which started
 ## First Coding Phase
 The first coding phase started on May 14th. In this phase, I started creating Jupyter Extension for writing job details inside notebook. For this, I registered a Ganga Cell Magic in IPython kernel and then this magic compiles written job and submits it to Ganga. After submitting the job, kernel extension sends a job info message to frontend using Jupyter's comm API. The frontend parses the received job info and displays a widget below Ganga Magic Cell. This widget contains all the job info like Appliation, backend, subjobs, splitters etc. After sending the job info, the kernel creates a new thread and send job status to frontend each second until the job finishes. The frontend widget consist buttons for killing job and resubmitting failed jobs.
 
-<center>
-!()[https://cdn-images-1.medium.com/max/800/1*-Iv2XOcShgcm7MoAWLP6Ew.gif]
-</center>
+
+![](https://cdn-images-1.medium.com/max/800/1*-Iv2XOcShgcm7MoAWLP6Ew.gif)
 
 ## The Road ahead
 In the subsequent weeks, I'll design a paradigm to integrate the notebook's namespace with Ganga job submission session and output of job. The next goals for my project are:
