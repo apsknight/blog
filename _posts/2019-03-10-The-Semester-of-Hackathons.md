@@ -49,4 +49,4 @@ After 3 rounds of extensive judging during the 36 hour Hackathon, our solution w
 ### Roaming around Kochi
 Before our return flight from Kochi, we had a few hours to wander around Kochi. We visited Fort Kochi in the afternoon and had lunch in a restaurant completely packed with *angrezs*. After that, we visited the historic Aspinwall house and took a ferry to Ernakulam Marine Drive. Unfortunately, We couldn't see many places in Kochi but I look forward to going Kerala again whenever I get a chance. This place is really God's own country!
 
-![](https://im.ezgif.com/tmp/ezgif-1-d161a1ff6128.gif)
+![](https://user-images.githubusercontent.com/19551774/54068837-da722a80-4276-11e9-8c90-2a076ecbd899.gif)
