@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The semester of Hackathons"
-date:   2018-03-31 04:00:00 +0530
+date:   2019-03-09 04:00:00 +0530
 ---
 Seeing the Hackathon related posts and conversations on Twitter and Reddit, I always had a desire to attend a Hackathon before my college ends. Finally this spring semester I got the chance to attend not just one but two hackathons. In this blog post, I'll share my experience of participating in Inter IIT Tech Meet Coding Hackathon 2018 and winning Smart India Hackathon 2019.
 
@@ -28,6 +28,8 @@ We had 2 days to roam around Mumbai before our return journey. The day after Hac
 ## Smart India Hackathon 2019
 
 The Smart India Hackathon is claimed to be the world's biggest open innovation model. Many Govt of India and State Govt departments, as well as Industry leaders, float problem statement in 3 categories based on difficulty level of the problem statement. There is an initial screening round of all submitted ideas in which around 4-5 teams are shortlisted for each problem statement, followed by the Grand Finale. This year the grand finale was scheduled on 2nd and 3rd March. My team Champions_sam got shortlisted for one of Cisco's **complex** problem statement. Each participating team had 6 members. In my team, I had Saksham, Aditya Pal, Tummala Madhav, Ankur(all CSE'20) and Meghna(ECE'20) as team members. The nodal center for our problem statement was SBEC, Alapuzha, Kerala.
+
+![](https://lh3.googleusercontent.com/jh1p6_Erc-PtsIfa5IIbWkHDGxP0q9zZrCW7uhmrc1vttURQSDU2UIfPjUynaq20OTxKz44pQGucSbRjlw25RxQ1B98Y_m9axDGI6u0C2UEwF2W29VHL4UU3oENrLNfbPAcBLnua1OrWnWE902-KHrfLFevCLtbkLLTQV8pNCoC0gXQsiYAZQqEfqpXOjrVtjsIY4AKP9wgmG1pyW3wNR9H7RcyxkFveViCjZQZSXgLuMag2zMj5e5Zzo71DeaRV3huRh_EDgRERfHfolGYn475UCwcbwimgJ3Ay5oSOj8QD-e5kdfWAOnCWipbdxUssy4Z4vHail5uckBuavANadYpjziM1RiAtHOkIDlKLVMOvxl03R8tbixAEe9eGN73wSfe4AMTZzslJEHV-IBOIfa6aQOPD844eb01JhDjxgsfSsuEH0qReji9hKg-tmXxrWzqCG2Y2P0KsmFUVngr84dsp3eWouFuwD4qquvc9Bget-X_gXTkeOTvNsCQWi_lR1SoC9mqT0fXjuDny1hb9gSOaWnyosb2XqYsQVa0yveU6WwpGcpghGoAG-mTmaS0dJmx2CU24K0duA60ym-CMsW8Tlbmv5TxNRM1YRUgbIKquTWGFB37s43eXMdOTDsvvGu7gbxoWfK-WSYWpM99yKamT2oP-lf-vqdt64r4He8AnV8gLPgVQZVFGQ3qGpZtVa7KDfR8Hgn2wH7rS9AdWatyuNg=w1902-h1268-no)
 
 ### Problem Statement
 At many public places like Railway station, Bus stand, government offices, banks etc when people walk-in they look for basic information. Inquiry window becomes the bottleneck and leads to the bad user experience. We want to create a tool that can be used to manage public announcements in a physical space. - Auto detects people when the user walks into physical space using a WiFi connection. - Prompt user to join support messaging room for that physical location. - Develop chatbot that can answer frequently asked questions for location. - Allow the facility administrator to broadcast message to all people currently present in physical space. - Allow users to have a video call with some remote support staff.
